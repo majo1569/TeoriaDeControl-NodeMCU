@@ -6,12 +6,12 @@
 #include <ArduinoJson.h>
 #include <WiFiClient.h>
 
-int led1 = D1;
-int led2 = D2;
-int led3 = D3;
-int led4 = D4;
-int led5 = D5;
-int rele = D6;
+int led1 = D2;
+int led2 = D3;
+int led3 = D4;
+int led4 = D5;
+int led5 = D6;
+int rele = D7;
 int e_relay;
 int e_led1;
 int e_led2;
@@ -20,6 +20,7 @@ int e_led4;
 int e_led5;
 double e_mic;
 int sonido_analogico = A0;
+int sonido_digital = D1;
 const int sensitivity = -58; //Sensibilidad del microfono  
 const int gain = 20;             
 const int sampleWindow = 1000;
